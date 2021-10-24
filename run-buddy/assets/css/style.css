@@ -212,5 +212,9 @@ footer{
       line-height: 1.3;
   }
   
-
-  
+ .contact-info h3 {
+    color: #39a6b2;
+ }
+ .contact-info p {
+    color: #39a6b2;
+ }
