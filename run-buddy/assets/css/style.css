@@ -1,12 +1,12 @@
 
 .intro {
-     text-align: center;
-    
+     text-align: cent;
+
      }
 
      header {
         padding: 20px 35px;
-        background-color: #39a6b2;
+        background-color: transparent;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -19,6 +19,14 @@
         
       }
     
+
+      .section-header {
+          font-size: 30px;
+          color: #024e76;
+          border-bottom: 3px solid;
+         
+              }
+
       section h2 {
           color: #39a6b2;
       }
@@ -71,7 +79,6 @@
     .hero {
         background-image: url("../images/hero-bg.jpeg");
         background-size: cover;
-        background-position: center;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -109,7 +116,7 @@
     }
     
     .hero-form label {
-        margin: 0; 50px;
+        margin: 0 50px;
     }
     
     .hero-form button {
@@ -145,6 +152,8 @@
         align-items: center;
         justify-content: space-between;
     }
+
+
     
     .section-title {
         font-size: 55px;
@@ -163,9 +172,10 @@
       
     
       .step h3 {
+        flex: 1 30%;
           font-size: 46px;
           color: #024e76  
-          flex: 1 30%;
+          
       }
       .steps-text p {
           color: #39a6b2;
@@ -239,12 +249,13 @@
     
     .contact {
         background: #024e76;
+        text-align: center;
+
     }
     .contact address {
         color:#39a6b2
     }
     .contact-info iframe {
-        width: 400px;
         height: 400px;
         padding: 0px 0px 40px 0px;
         
@@ -268,7 +279,7 @@
       .contact-info p, .contact-info address {
         margin: 20px 0;
         line-height: 1.5;
-        font-size: 20px;
+        font-size: 16px;
         font-style: normal;
       }
       
@@ -328,3 +339,40 @@
         flex-wrap: wrap;
         justify-content: space-around;
       }
+
+      .contact-info div {
+
+      }
+
+      .contact-info{
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+      }
+
+      .contact-info > * {
+          flex: 1;
+          margin: 15px;
+      }
+
+
+      .contact-info input, .contact-form textarea {
+          border: 1px solid #024e76;
+          display: block;
+          padding: 7px 15px;
+          font-size: 16px;
+          color: #024e76;
+          width: 100%;
+          margin-top: 5px;
+          margin-bottom: 15px
+    }
+
+    .contact-form button {
+        width: 100%;
+        border: none;
+        background: #fce138;
+        color: #024e76;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 16px;
+    }
